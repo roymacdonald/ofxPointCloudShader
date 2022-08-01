@@ -14,7 +14,7 @@
 #include "ofxColorMap.h"
 
 
-#define USE_OFX_AUTO_RELOADED_SHADER
+//#define USE_OFX_AUTO_RELOADED_SHADER
 
 #ifdef USE_OFX_AUTO_RELOADED_SHADER
 #include "ofxAutoReloadedShader.h"
