@@ -110,3 +110,10 @@ void ofxPointShader::drawGui()
 {
     gui.draw();
 }
+
+void ofxPointShader::updateMaxRange(float range){
+    if( range_max.getMax() < range){
+        range_max.setMax(range);
+    }
+    range_max = range;
+}

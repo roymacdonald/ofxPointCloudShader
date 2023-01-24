@@ -30,7 +30,7 @@ public:
     ofxPanel gui;
 
     /// maximum range in meters
-    ofParameter<float> range_max = {"range_max", 200, 0, 500};
+    ofParameter<float> range_max = {"Max Range", 200, 0, 500};
     
     void drawGui();
     
@@ -57,6 +57,7 @@ public:
     ofShader shader;
 #endif
 
+    void updateMaxRange(float range);
     
 protected:
 
